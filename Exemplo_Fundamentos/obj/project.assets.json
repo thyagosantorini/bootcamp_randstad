@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\thyagosantorini\\bootcamp_randstad\\Exemplo_Fundamentos\\Exemplo_Fundamentos.csproj",
+      "projectUniqueName": "D:\\Projetos\\thyagosantorini\\bootcamp_randstad\\Exemplo_Fundamentos\\Exemplo_Fundamentos.csproj",
       "projectName": "Exemplo_Fundamentos",
-      "projectPath": "E:\\thyagosantorini\\bootcamp_randstad\\Exemplo_Fundamentos\\Exemplo_Fundamentos.csproj",
+      "projectPath": "D:\\Projetos\\thyagosantorini\\bootcamp_randstad\\Exemplo_Fundamentos\\Exemplo_Fundamentos.csproj",
       "packagesPath": "C:\\Users\\thyag\\.nuget\\packages\\",
-      "outputPath": "E:\\thyagosantorini\\bootcamp_randstad\\Exemplo_Fundamentos\\obj\\",
+      "outputPath": "D:\\Projetos\\thyagosantorini\\bootcamp_randstad\\Exemplo_Fundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -68,12 +68,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
